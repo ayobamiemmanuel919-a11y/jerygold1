@@ -1,55 +1,75 @@
-header{
-    background-color: darkblue;
-    color: white;
-    padding: 20px;
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
 body {
-            font-family: Arial, sans-serif;
-            background-color: lightblue;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:#fff;
+}
+header {
+    background-color:rgb(25, 25, 85);
+    color: #fff;
+    padding: 20px;
+}
 
-        h1 {
-            color: darkblue;
-        }
+.event {
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    background-color: white;
+    border: 2px solid navy;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px gray;
+}
 
-        .gallery {
-            background-color: white;
-            padding: 20px;
-            border-radius: 15px;
-            margin: 20px auto;
-            max-width: 900px;
-        }
+.event h2 {
+    color: navy;
+}
 
-        p{
-            color: blue;
-        }
+.details {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
 
-        img {
-            width: 250px;
-            height: 180px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin: 10px;
-        }
+button {
+    padding: 12px 25px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
-        video {
-            width: 30%;
-            max-width: 500px;
-            border-radius: 10px;
-        }
+button:hover {
+    background-color: blue;
+}
 
-        audio {
-            margin: 15px;
-        }
+.program {
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    background-color: white;
+    
+    border: 2px solid navy;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px gray;
+}
+      
 
-        footer {
-            background-color: rgb(11, 228, 156);
-            color: black;
-            padding: 15px;
-            margin-top: 20px;
-        }
+
+.program li {
+    margin: 10px;
+    list-style: none;
+}
+
+footer {
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    
+}
+
