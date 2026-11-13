@@ -1,0 +1,55 @@
+header{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        .gallery {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+
+        p{
+            color: blue;
+        }
+
+        img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        video {
+            width: 30%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        audio {
+            margin: 15px;
+        }
+
+        footer {
+            background-color: rgb(11, 228, 156);
+            color: black;
+            padding: 15px;
+            margin-top: 20px;
+        }
