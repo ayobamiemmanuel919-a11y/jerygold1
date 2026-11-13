@@ -1,49 +1,155 @@
+
+<
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graduation Ceremony</title>
+    <title>Advanced HTML Lists and Tables</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
 <header>
-    <h1 class="graduation-icon">🎓</h1>
-<h1> Graduation Ceremony</h1>
-<p>Celebrating ourgraduation Ceremony student</p>
+    <h1>ADVANCED HTML LISTS AND TABLES</h1>
+    <p>Computer Studies / ICT Practical Project</p>
 </header>
- <section class="event">
-        <h2>You Are All Invited!</h2>
 
-        <p>
-            Join us as we celebrate the success and achievements
-            of our graduating students.
-        </p>
+<!-- PRACTICAL ACTIVITY 1 -->
 
-        <div class="details">
-            <p><strong> Date:</strong> Saturday, December 20, 2026</p>
-            <p><strong> Time:</strong> 10:00 AM</p>
-            <p><strong> Venue:</strong> School Auditorium</p>
-        </div>
+<section>
+    <h2>1. STUDENT RESULT SHEET</h2>
 
-        <button>Register Now</button>
-    </section>
+    <table>
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Student Name</th>
+                <th>English</th>
+                <th>Mathematics</th>
+                <th>Computer</th>
+                <th>Total</th>
+                <th>Average</th>
+            </tr>
+        </thead>
 
-    <div class="program">
-        <h2>Event Program</h2>
-        <ul>
-            <p> <strong> Opening Ceremony <strong>10:00 AM:</p>
-            <p> <strong> Graduation speech </strong>10:30 AM:</p>
-    <p>  <strong>Certificate presentation</strong>11:00 AM:</p>
-    <p> <strong>Photography</strong>12:00 PM: </p>
-    <p> <strong> Closing Ceremony</strong>12:30 AM:</p>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>80</td>
+                <td>75</td>
+                <td>90</td>
+                <td>245</td>
+                <td>81.7</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Mary</td>
+                <td>85</td>
+                <td>90</td>
+                <td>95</td>
+                <td>270</td>
+                <td>90</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>David</td>
+                <td>70</td>
+                <td>80</td>
+                <td>85</td>
+                <td>235</td>
+                <td>78.3</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- PRACTICAL ACTIVITY 2 -->
+
+<section>
+    <h2>2. CLASS TIMETABLE</h2>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+        </tr>
+
+        <tr>
+            <td>8-9 AM</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>Computer</td>
+        </tr>
+
+        <tr>
+            <td>9-10 AM</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Science</td>
+        </tr>
+
+        <tr>
+            <td>10-11 AM</td>
+            <td colspan="3">BREAK TIME</td>
+        </tr>
+
+        <tr>
+            <td>11-12 PM</td>
+            <td>Computer</td>
+            <td>Science</td>
+            <td>English</td>
+        </tr>
+    </table>
+</section>
+
+<!-- PRACTICAL ACTIVITY 3 -->
+
+<section>
+    <h2>3. SCHOOL ACTIVITIES</h2>
+
+    <h3>A. Five Steps for Starting a Computer</h3>
+
+    <ol>
+        <li>Connect the computer to power.</li>
+        <li>Switch on the power supply.</li>
+        <li>Press the computer power button.</li>
+        <li>Wait for the computer to start.</li>
+        <li>Enter your password if required.</li>
+    </ol>
+
+    <h3>B. Five Computer Laboratory Rules</h3>
+
+    <ul>
+        <li>Do not eat in the computer laboratory.</li>
+        <li>Do not drink near computers.</li>
+        <li>Keep the laboratory clean.</li>
+        <li>Handle computer equipment carefully.</li>
+        <li>Follow the teacher's instructions.</li>
     </ul>
-    </div>
 
-    <footer>
-        <p>© 2026 Graduation Ceremony</p>
-    </footer>
+    <h3>C. Computer Terms and Their Meanings</h3>
 
-       </body>
+    <dl>
+        <dt>Hardware</dt>
+        <dd>The physical parts of a computer.</dd>
+
+        <dt>Software</dt>
+        <dd>Programs that make a computer work.</dd>
+
+        <dt>Internet</dt>
+        <dd>A worldwide network that connects computers.</dd>
+    </dl>
+
+</section>
+
+<footer>
+    <p>Created by Jeremiah | Computer Studies Practical Project</p>
+</footer>
+
+</body>
 </html>
